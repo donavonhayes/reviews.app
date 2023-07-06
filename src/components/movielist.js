@@ -20,7 +20,7 @@ function MovieList(props) {
 {
   title: "The Fugitgive",
   imageUrl:
-    "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BYmFmOGZjYTItYjY1ZS00OWRiLTk0NDgtMjQ5MzBkYWE2YWE0XkEyXkFqcGdeQXVyNjU0OTQ0OTY%40._V1_FMjpg_UX1000_.jpg&tbnid=RmSWSpHOl8DXIM&vet=12ahUKEwi-ksqq2Pr_AhX6Pd4AHfIYAekQMygAegUIARDqAQ..i&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0106977%2F&docid=-yItccynrxy06M&w=1000&h=1506&q=the%20fugitive&ved=2ahUKEwi-ksqq2Pr_AhX6Pd4AHfIYAekQMygAegUIARDqAQ",
+    "https://m.media-amazon.com/images/M/MV5BNzczMzEwODgwM15BMl5BanBnXkFtZTYwNjE3Njk4._V1_.jpg",
   synopsis:
     "A well respected Chicago surgeon Dr. Richard Kimble has found out that his wife, Helen, has been murdered ferociously in her own home. The police found Kimble and accused him of the murder. Then, Kimble (without Justifiable Reason) was tried, convicted, and sentenced to death. However, on the way to prison, Kimble's transport crashed. Kimble escapes and is now on the run. Deputy Samuel Gerard from Chicago takes charge of the chase of Kimble. Meanwhile, Kimble takes up his own investigation to find who really killed his wife, and to lure Gerard and his team into it as well.",
   rating: 3.5
