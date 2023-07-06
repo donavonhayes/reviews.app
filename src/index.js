@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './movielist.css';
 import MovieList from './MovieList';
 import reportWebVitals from './reportWebVitals';
 
