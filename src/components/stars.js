@@ -1,27 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-class Stars extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            rating: props.rating,
-        }
+function Stars(props) {
+  const { rating: initialRating, onChange } = props;
+  const [rating, setRating] = useState(initialRating);
 
+  const handleStarClick = (index) => {
+    const newRating = index + 1;
+    setRating(newRating);
+    if (onChange) {
+      onChange(newRating);
     }
+  };
 
-
-    render() {
-        let rating = parseInt(this.state.rating);
-        if (rating < 1 || rating > 5) {
-            rating = 'Not a valid rating'
-        }
-
-        return (
-            <div>
-                <span>{"Stars: " + rating}</span>
-            </div>
-        );
-    }
+  return (
+    <div>
+      {[...Array(5)].map((_, index) => (
+        <span
+          key={index}
+          className={`mx-1 ${index < rating ? 'text-warning' : 'text-gray'}`}
+          style={{ cursor: 'pointer', fontSize: '1.5rem' }}
+          onClick={() => handleStarClick(index)}
+        >
+          {index < rating ? '★' : '☆'}
+        </span>
+      ))}
+    </div>
+  );
 }
 
 export default Stars;

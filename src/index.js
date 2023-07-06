@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import MovieList from './MovieList';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import MovieList from './Components/MovieList';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

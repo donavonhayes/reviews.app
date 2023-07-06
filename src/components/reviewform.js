@@ -1,41 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-class ReviewForm extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            movie: props.movie,
-            reviewContent: '',
-            stars: '',
-        }
-        
-        this.updateReview = this.updateReview.bind(this);
-        this.updateStar = this.updateStar.bind(this);
-        this.submitReview = this.submitReview.bind(this);
-    }
+function ReviewForm() {
+  const [reviews, setReviews] = useState([]);
 
-    submitReview() {  
-        this.props.onClick(this.state);
+  function handleSubmit(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const username = formData.get('username');
+    const comment = formData.get('comment');
+    const rating = formData.get('rating');
+    const newReview = { username, comment, rating };
+    setReviews([...reviews, newReview]);
+  }
 
-    }
-
-    updateReview(event) {
-        this.setState({ reviewContent: event.target.value })
-    }
-
-    updateStar(event) {
-        this.setState({ stars: event.target.value })
-    }
-
-    render() {
-        return (
-            <div>
-                <input id={this.state.movie + '-review'} type='text' placeholder='Leave Your Review Here!' onChange={this.updateReview}></input>
-                <input id={this.state.movie + '-stars'} type='text'placeholder='Rating 1-5 Stars' onChange={this.updateStar}></input>
-                <button onClick={this.submitReview}>Submit Review</button>
-            </div>
-        );
-    }
+  return (
+    <div className='card m-3'>
+      <h6>Reviews</h6>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label htmlFor="username">Username:</label>
+          <input id="username" name="username" type="text" required />
+        </div><br/>
+        <div>
+          <label htmlFor="comment">Review:</label>
+          <textarea id="comment" name="comment" required></textarea>
+        </div>
+        <div>
+          <label htmlFor="rating">Rating:</label>
+          <select id="rating" name="rating" required>
+            <option value="">Choose a rating</option>
+            <option value="1">1 star</option>
+            <option value="2">2 stars</option>
+            <option value="3">3 stars</option>
+            <option value="4">4 stars</option>
+            <option value="5">5 stars</option>
+          </select>
+        </div>
+        <button type="submit" className='btn btn-primary'>Submit</button>
+      </form>
+      <ul className='card m-3'>
+        {reviews.map((review, index) => (
+          <li
+            key={review.username}
+            className={index % 2 === 0 ? 'userComments even' : 'userComments odd'}  /*class for styling*/
+          >
+            {review.username}: {review.comment} ({review.rating} stars)
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export default ReviewForm;
