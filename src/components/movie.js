@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import stars from './Stars';
-import Reviewform from './Reviewform';
+import Stars from './Stars';
+import ReviewForm from './ReviewForm';
 
 
 function Movie(props) {
@@ -27,7 +27,7 @@ function Movie(props) {
               <span className="ms-2">{props.movie.rating.toFixed(1)}</span>
             </div>
             
-            <reviewForm onAddReview={addReview} />
+            <ReviewForm onAddReview={addReview} />
             
           </div>
         </div>
@@ -37,5 +37,7 @@ function Movie(props) {
 }
 
 export default Movie;
+
+
 
 

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
-import MovieList from './Components/Movielist';
+import MovieList from './Components/MovieList';
 
 
 
