@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import stars from './stars';
-import reviewForm from './reviewForm';
+import reviewform from './reviewform';
 
 
 function movie(props) {
