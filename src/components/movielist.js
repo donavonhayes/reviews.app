@@ -1,7 +1,7 @@
 import React from 'react';
-import Movie from './Movie';
+import movie from './movie';
 
-function MovieList(props) {
+function movieList(props) {
   const movies = props.movies || [ {title: "Sweet Home Alabama",
   imageUrl:
     "https://i.etsystatic.com/27719728/r/il/cfa956/4812486927/il_794xN.4812486927_8gxe.jpg",
@@ -61,4 +61,4 @@ function MovieList(props) {
   );
 }
 
-export default MovieList;
+export default movieList;
