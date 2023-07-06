@@ -27,7 +27,7 @@ function movie(props) {
               <span className="ms-2">{props.movie.rating.toFixed(1)}</span>
             </div>
             
-            <ReviewForm onAddReview={addReview} />
+            <reviewForm onAddReview={addReview} />
             
           </div>
         </div>
