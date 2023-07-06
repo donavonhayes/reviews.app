@@ -44,7 +44,7 @@ function MovieList(props) {
   {
     title: "Kate",
     imageUrl:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Focc-0-2705-3934.1.nflxso.net%2Fdnm%2Fapi%2Fv6%2F6AYY37jfdO6hpXcMjf9Yu5cnmO0%2FAAAABUH2lGywEKU4j1tSuJrO-Cmu2y0Dx0ZkTyJ06O_t_N2igdsXAiJR85P74jI5-Y85hjZ6gQzCF0A-G0sR_8loTf1nvRFilycLFq4T.jpg%3Fr%3Dd9e&tbnid=mWZLsFJhj0kO_M&vet=12ahUKEwjQqeqq2fr_AhXzE94AHTqPDgwQMygFegUIARDjAQ..i&imgrefurl=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F80216200&docid=AtAlgVSslvzkAM&w=1024&h=576&q=kate%20netflix&ved=2ahUKEwjQqeqq2fr_AhXzE94AHTqPDgwQMygFegUIARDjAQ",
+      "https://ndsmcobserver.com/wp-content/uploads/2021/09/1632173283-0ead5d29a2735b0-1024x686.png",
     synopsis:
       "Meticulous and preternaturally skilled, Kate is the perfect specimen of a finely tuned assassin at the height of her game. But when she uncharacteristically blows an assignment targeting a member of the yakuza in Tokyo, she quickly discovers she's been poisoned, a brutally slow execution that gives her less than 24 hours to exact revenge on her killers. As her body swiftly deteriorates, Kate forms an unlikely bond with the teenage daughter of one of her past victims",
     rating: 4.2
