@@ -1,4 +1,5 @@
 import './MovieList.css';
+import Movie from './components/movie.js'
 
 const movies = [
   {movieTitle: 'Deadpool'},
