@@ -1,9 +1,3 @@
-<style>
-  h1 {
-    color: blue
-  }
-</style>
-
 import React from 'react';
 import Movie from './Movie';
 
