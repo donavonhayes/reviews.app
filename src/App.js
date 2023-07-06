@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
-import MovieList from './components/movie-list';
-import Header from './components/header'
+import MovieList from './Components/movie-list';
+import Header from './Components/header'
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 function App() {
