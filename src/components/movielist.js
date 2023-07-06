@@ -61,4 +61,4 @@ function MovieList(props) {
   );
 }
 
-export default movielist;
+export default MovieList;
