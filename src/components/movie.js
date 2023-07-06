@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import stars from './stars';
-import reviewform from './reviewform';
+import stars from './Stars';
+import Reviewform from './Reviewform';
 
 
-function movie(props) {
+function Movie(props) {
   const { title, imageUrl, synopsis } = props.movie;
   const [reviews, setReviews] = useState(props.movie.reviews || []);
 
@@ -36,6 +36,6 @@ function movie(props) {
   );
 }
 
-export default movie;
+export default Movie;
 
 
