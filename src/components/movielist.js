@@ -36,7 +36,7 @@ function MovieList(props) {
   {
     title: "The Great Gatsby",
     imageUrl:
-    "https://m.media-amazon.com/images/I/81qVCJOEUkS._AC_UF894,1000_QL80_.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpK621goh9Gy4bvJvQ2vqm7lNnLj7shBVl3PvORTyYIGubsLXDeQocMosmZoUsLCQN-zE&usqp=CAU",
     synopsis:
       "An adaptation of F. Scott Fitzgerald's Long Island-set novel, where Midwesterner Nick Carraway is lured into the lavish world of his neighbor, Jay Gatsby. Soon enough, however, Carraway sees through the cracks of Gatsby's nouveau riche existence, where obsession, madness, and tragedy await.",
     rating: 3.5
