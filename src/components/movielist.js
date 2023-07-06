@@ -2,11 +2,11 @@ import React from 'react';
 import Movie from './Movie';
 
 function MovieList(props) {
-  const movies = props.movies || [ {title: "Sweet Home Alabama",
+  const movies = props.movies || [ {title: "Harry Potter & The Half-Blood Prince",
   imageUrl:
-    "https://i.etsystatic.com/27719728/r/il/cfa956/4812486927/il_794xN.4812486927_8gxe.jpg",
+    "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg%40%40._V1_.jpg&tbnid=XB8ePereh-8uEM&vet=12ahUKEwiJ_P-V1_r_AhXzE94AHX-OCZ4QMygBegUIARDKAQ..i&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0417741%2F&docid=f-xewlBTb-sflM&w=1328&h=2048&q=harry%20potter%20and%20the%20half-blood%20prince%20about&ved=2ahUKEwiJ_P-V1_r_AhXzE94AHX-OCZ4QMygBegUIARDKAQ",
   synopsis:
-    "New York fashion designer Melanie suddenly finds herself engaged to the city's most eligible bachelor. But Melanie's past holds many secrets, including Jake, the redneck husband she married in high school, who refuses to divorce her. Bound and determined to end their relationship once and for all, Melanie sneaks back home to Alabama to confront her past, only to discover that you can take the girl out of the South, but you can't take the South out of the girl.",
+    "As Death Eaters wreak havoc in both Muggle and Wizard worlds, Hogwarts is no longer a safe haven for students. Though Harry (Daniel Radcliffe) suspects there are new dangers lurking within the castle walls, Dumbledore is more intent than ever on preparing the young wizard for the final battle with Voldemort. Meanwhile, teenage hormones run rampant through Hogwarts, presenting a different sort of danger. Love may be in the air, but tragedy looms, and Hogwarts may never be the same again..",
   rating: 5
 },
 {
@@ -18,42 +18,42 @@ function MovieList(props) {
   rating: 4
 },
 {
-  title: "For Love Or Money",
+  title: "The Fugitgive",
   imageUrl:
-    "https://m.media-amazon.com/images/I/71jg5IosU7L._SX385_.jpg",
+    "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BYmFmOGZjYTItYjY1ZS00OWRiLTk0NDgtMjQ5MzBkYWE2YWE0XkEyXkFqcGdeQXVyNjU0OTQ0OTY%40._V1_FMjpg_UX1000_.jpg&tbnid=RmSWSpHOl8DXIM&vet=12ahUKEwi-ksqq2Pr_AhX6Pd4AHfIYAekQMygAegUIARDqAQ..i&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0106977%2F&docid=-yItccynrxy06M&w=1000&h=1506&q=the%20fugitive&ved=2ahUKEwi-ksqq2Pr_AhX6Pd4AHfIYAekQMygAegUIARDqAQ",
   synopsis:
-    "New York concierge Doug Ireland wants to go into business for himself and refurbish a hotel on Roosevelt Island, N.Y., but he needs an investor. With a few weeks left before his option on the site runs out, Doug agrees to help wealthy Christian Hanover conceal his affair with salesgirl Andy Hart from his wife. Despite his own attraction to Andy, Doug tries to stay focused on getting Christian to invest $3 million in his project.",
+    "A well respected Chicago surgeon Dr. Richard Kimble has found out that his wife, Helen, has been murdered ferociously in her own home. The police found Kimble and accused him of the murder. Then, Kimble (without Justifiable Reason) was tried, convicted, and sentenced to death. However, on the way to prison, Kimble's transport crashed. Kimble escapes and is now on the run. Deputy Samuel Gerard from Chicago takes charge of the chase of Kimble. Meanwhile, Kimble takes up his own investigation to find who really killed his wife, and to lure Gerard and his team into it as well.",
   rating: 3.5
 },
 {
-    title: "America's Sweethearts",
+    title: "Double Jeopardy",
     imageUrl:
-      "https://m.media-amazon.com/images/I/51ktfUJpJ7L.jpg",
+      "https://m.media-amazon.com/images/I/81qVCJOEUkS._AC_UF894,1000_QL80_.jpg",
     synopsis:
-      "For an awkward, self-conscious girl like Kiki (Julia Roberts), being the personal assistant to a beautiful megastar like Gwen isn't easy. But when she dutifully accepts the task of helping Gwen and her estranged husband Eddie make it through one last public appearance masterminded by legendary press agent Lee Phillips, forever devoted Kiki finds that her job is about to get even harder when her and Eddie's relationship takes a romantic turn.",
+      "When Nick Parsons appears to be murdered his wife Libby is tried and convicted. Six years later Libby is paroled and is pursued by Travis Lehman (her parole officer) as she sets out to find her son and settle the score with Nick.",
     rating: 3 
   },
   {
-    title: "Never Been Kissed",
+    title: "The Great Gatsby",
     imageUrl:
-      "https://m.media-amazon.com/images/I/51gDJt-dykL._AC_UF894,1000_QL80_.jpg",
+    "https://m.media-amazon.com/images/I/81qVCJOEUkS._AC_UF894,1000_QL80_.jpg",
     synopsis:
-      "Josie Geller, a baby-faced junior copywriter at the Chicago Sun-Times, must pose as a student at her former high school to research contemporary teenage culture. With the help of her brother, Rob, Josie infiltrates the inner circle of the most popular clique on campus. But she hits a major snag in her investigation -- not to mention her own failed love life -- when she falls for her dreamy English teacher, Sam Coulson.",
+      "An adaptation of F. Scott Fitzgerald's Long Island-set novel, where Midwesterner Nick Carraway is lured into the lavish world of his neighbor, Jay Gatsby. Soon enough, however, Carraway sees through the cracks of Gatsby's nouveau riche existence, where obsession, madness, and tragedy await.",
     rating: 3.5
   },
   {
-    title: "10 Things I Hate About You",
+    title: "Kate",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMmVhZjhlZDYtMDAwZi00MDcyLTgzOTItOWNiZjY0YmE0MGE0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "https://www.google.com/imgres?imgurl=https%3A%2F%2Focc-0-2705-3934.1.nflxso.net%2Fdnm%2Fapi%2Fv6%2F6AYY37jfdO6hpXcMjf9Yu5cnmO0%2FAAAABUH2lGywEKU4j1tSuJrO-Cmu2y0Dx0ZkTyJ06O_t_N2igdsXAiJR85P74jI5-Y85hjZ6gQzCF0A-G0sR_8loTf1nvRFilycLFq4T.jpg%3Fr%3Dd9e&tbnid=mWZLsFJhj0kO_M&vet=12ahUKEwjQqeqq2fr_AhXzE94AHTqPDgwQMygFegUIARDjAQ..i&imgrefurl=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F80216200&docid=AtAlgVSslvzkAM&w=1024&h=576&q=kate%20netflix&ved=2ahUKEwjQqeqq2fr_AhXzE94AHTqPDgwQMygFegUIARDjAQ",
     synopsis:
-      "Kat Stratford is beautiful, smart and quite abrasive to most of her fellow teens, meaning that she doesn't attract many boys. Unfortunately for her younger sister, Bianca, house rules say that she can't date until Kat has a boyfriend, so strings are pulled to set the dour damsel up for a romance. Soon Kat crosses paths with handsome new arrival Patrick Verona. Will Kat let her guard down enough to fall for the effortlessly charming Patrick?",
+      "Meticulous and preternaturally skilled, Kate is the perfect specimen of a finely tuned assassin at the height of her game. But when she uncharacteristically blows an assignment targeting a member of the yakuza in Tokyo, she quickly discovers she's been poisoned, a brutally slow execution that gives her less than 24 hours to exact revenge on her killers. As her body swiftly deteriorates, Kate forms an unlikely bond with the teenage daughter of one of her past victims",
     rating: 4.2
   }
 ];
 
   return (  
     <div className="container">
-      <div className='card m-3' id='pageTitle'><h1><i>~Rom-Com's of the 90's Movie List~</i></h1></div>
+      <div className='card m-3' id='pageTitle'><h1><i>~Movie Reccomendations~</i></h1></div>
       {movies.map((movie, index) => (
         <Movie key={index} movie={movie} />
       ))}
