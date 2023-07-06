@@ -1,3 +1,9 @@
+<style>
+  h1 {
+    color: blue
+  }
+</style>
+
 import React from 'react';
 import Movie from './Movie';
 
@@ -53,7 +59,7 @@ function MovieList(props) {
 
   return (  
     <div className="container">
-      <div className='card m-3' id='pageTitle'><h1><i>~Movie Reccomendations~</i></h1></div>
+      <div className='card m-3' id='pageTitle'><h1><i>Movie Reccomendations</i></h1></div>
       {movies.map((movie, index) => (
         <Movie key={index} movie={movie} />
       ))}
