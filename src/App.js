@@ -1,5 +1,4 @@
 import './App.css'
-import React, { useState } from 'react';
 import Create from './components/create'
 import Read from './read'
 import Update from './update'
