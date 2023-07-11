@@ -1,9 +1,9 @@
 import './App.css'
-import create from './components/create'
-import read from './read'
-import ipdate from './update'
+import Create from './components/create'
+import Read from './read'
+import Update from './update'
 import { Route, Routes } from 'react-router-dom'
-import navBar from './navbar'
+import NavBar from './navbar'
 
 export default function App() {
   return (
