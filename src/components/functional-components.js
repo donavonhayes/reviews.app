@@ -90,6 +90,6 @@ assign them to variables all in one line  */
 
  import {Component} from 'react'; /*here we can use the component
   */
- import React, {Component} from 'react';
+ import {Component} from 'react';
 
  
