@@ -3,17 +3,17 @@ import React from "react";
 function FunctionalComponents() {
     return (
         <div className="App">
-            <Person name= "Donavon" age= "21"/> 
-            <Person name= "Husnaan" age= "24"/>
+            <Person name= "Donavon" DOB= "02/23/2002"/> 
+            <Person name= "Husnaan" DOB= "08/18/1998"/>
         </div>
     ); /*values below are being passed here */
 }
 const Person = (props) => {
-    const {name, age} = props;
+    const {name,DOB} = props;
     return (
         <div>
             <h1>{name}</h1>
-            <h2>Person Age: {age}</h2>
+            <h2> Date of Birth: {DOB}</h2>
         </div>
     );    
 } /*this is the functional component; Person Name is a 
