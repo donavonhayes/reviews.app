@@ -3,8 +3,8 @@ import React from "react";
 function FunctionalComponents() {
     return (
         <div className="App">
-            <Person name= "Tom" age= "32"/> 
-            <Person name= "Alice" age= "27"/>
+            <Person name= "Donavon" age= "21"/> 
+            <Person name= "Husnaan" age= "24"/>
         </div>
     ); /*values below are being passed here */
 }
@@ -88,8 +88,6 @@ assign them to variables all in one line  */
  console.log(propertyThree); /*p-three is assigned to the 
  destructured value of the object */
 
- import {Component} from 'react'; /*here we can use the component
-  */
  import {Component} from 'react';
 
  
