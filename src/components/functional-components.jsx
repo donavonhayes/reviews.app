@@ -3,7 +3,7 @@ import React from "react";
 function FunctionalComponents() {
     return (
         <div className="App">
-            <Person name= "Breana" DOB= "04/30/1996"/> 
+            <Person name= "Donavon" DOB= "02/23/2002"/> 
             <Person name= "Husnaan" DOB= "08/18/1998"/>
         </div>
     ); /*values below are being passed here */
